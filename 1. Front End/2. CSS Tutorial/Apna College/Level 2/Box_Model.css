@@ -1,0 +1,52 @@
+/* Height */
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* Border */
+    /*border-width: 5px;
+    border-style: solid;
+    border-color: greenyellow; */
+    border: 5px solid red;
+    text-align: center;
+}
+#one {
+    height: 200px;
+    width: 200px;
+    background-color:beige;
+    border: 5px solid red;
+    text-align: center;
+    border-radius: 10px;
+    padding:25px;
+    margin: 50px;
+}
+#two {
+    height: 150px;
+    width: 200px;
+    background-color:beige;
+    border: 5px solid red;
+    text-align: center;
+    border-radius: 10px;
+    padding-top:50px 50px 50px 90px;
+    margin-top: 50px;
+}
+#three {
+    height: 200px;
+    width: 200px;
+    background-color:beige;
+    border: 5px solid red;
+    text-align: center;
+    border-radius: 50%;
+    padding:50px;
+}
+/* Width */
+h1 {
+    height: 100px;
+    width: 300px;
+    background-color: aquamarine;
+    /* Border */
+    border-width: 5px;
+    border-style: dashed;
+    border-color:red;
+    text-align: center;
+}

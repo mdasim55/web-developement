@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3>About forms Information</h3>
+    <form action="/action.php">
+        <input type="text" placeholder="Enter Name">
+        <br>
+        <input type="password" placeholder="Enter Password">
+        <br>
+        <input type="radio" value="class XI" name="class">class XI
+        <input type="radio" value="class XII" name="class">class XII
+        <br>
+        <label for="101">
+            <input type="radio" value="class XI" name="class" id="101">class XI
+        </label>
+        <label for="102">
+            <input type="radio" value="class XII" name="class" id="102">class XII
+        </label>
+<!-- Check box -->
+        <h3>Selects your subjects : </h3>
+        <label for math>
+            <input type="checkbox" value="math" name="subjects" id="103">Math
+        </label>
+        <br>
+        <label for physics>
+            <input type="checkbox" value="physics" name="subjects" id="104">Physics
+        </label>
+        <br>
+        <label for chem>
+            <input type="checkbox" value="chem" name="subjects" id="105">chem
+        </label>
+        <br>
+        <label for bengali>
+            <input type="checkbox" value="Bengali" name="subjects" id="106">Bengali
+        </label>
+        <br>
+        <label for english>
+            <input type="checkbox" value="english" name="subjects" id="107">English
+        </label>
+        <br>
+        <label for biology>
+            <input type="checkbox" value="biology" name="subjects" id="108">Biology
+        </label>
+        <!-- Select City -->
+        <h3>Seledctas your city: </h3>
+        <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Bangalore">Bangalore</option>
+        </select>
+        <!-- Feedback Form -->
+        <h3>Feedbackl Form: </h3>
+        <textarea name="feedback" id="101" placeholder="Please give ypur fedback here" rows="5">Feedback</textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

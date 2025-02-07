@@ -1,0 +1,15 @@
+.heading {
+    color: blue;
+    background-color: chartreuse;
+}
+#heading1 {
+    color: brown;
+    background-color: cornflowerblue;
+}
+body {
+    background-color: rgb(77, 229, 112);
+}
+button {
+    color: white;
+    background-color: blue;
+}

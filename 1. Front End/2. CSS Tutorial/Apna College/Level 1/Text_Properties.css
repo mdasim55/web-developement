@@ -1,0 +1,57 @@
+/* Text Align */
+h1 {
+    text-align: center;;
+}
+p {
+    text-align: left;
+}
+/* Text Decoration */
+#underline {
+    text-decoration: red wavy underline;
+}
+#overline {
+    text-decoration: blue overline;
+}
+#line-through {
+    text-decoration: green wavy line-through;
+}
+a {
+    text-align: right;
+    text-decoration: none;
+}
+/* Front Weight */
+#L1 {
+    font-weight: normal;
+}
+#L2 {
+    font-weight: lighter;
+}
+#L3 {
+    font-weight:bold;
+}
+#L4 {
+    font-weight: bolder;
+}
+
+#L6 {
+    font-weight: 100;
+}
+#L7 {
+    font-weight: 300;
+}
+#L8 {
+    font-weight:500;
+}
+#L9 {
+    font-weight: 600;
+}
+#L10 {
+    font-weight: 900;
+}
+/* Font Family */
+#one {
+    font-family: arial;
+}
+#two {
+    font-family: 'Segoe UI';
+}

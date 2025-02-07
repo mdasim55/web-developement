@@ -1,0 +1,25 @@
+/* Universal Selector */
+* {
+    color:blue;
+}
+/* Element Selector */
+h2 {
+    color:green;
+}
+button {
+    color:brown;
+}
+/* Id Selector */
+#heading1 {
+    color:chocolate;
+}
+#heading2 {
+    color:magenta;
+}
+#heading3 {
+    color:gold;
+}
+/* Class Selector */
+.MyClass {
+    color:olive
+}

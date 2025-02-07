@@ -1,0 +1,73 @@
+        <--- Introduction --->
+1. Use an alert to display good Morning.
+2. Display your name in a popup.
+3. Using Math calculate the following.
+    => 75-25
+    => 3+3-5
+4. Change Facebook page to display " I am learning js".
+
+        <--- Numbers & String ---> 
+5. At a resturent you ate:  1 Dal rup-100, 2 Roti rup-10 each, 1 Icecream rup-30, calculate and display the final bill paymrnt.
+6. Calculate 18% GST on iPhone15 rup-79,990 and 2 Air pods Pro rup-24,990 each.
+7. Create string using all 3 methods.
+8. Concatenate String with String, and String with numbers.
+9. Crreate a Order Summary String for our Myntra Card. (with Backtrics).
+10. Dispaly oredr summary in a popup.  (It means alert).
+
+        <--- JavaScript with HTML & CSS --->
+11. Create a button with click.
+12. Create 2 button with class and id.
+13. Create a paragraph.
+14. Add colors to two buttons.
+15. Add Proper HTML structure.
+16. Change page title.
+17. Try to copy the given design on the bottom.
+    Add to Bag,  WISHLIST.
+18. Add script element to page to show welcome alert.
+19. Add onclick alert on add to Bag and WISHLIST buttons.
+
+        <--- Variables --->
+1. Save your name in a variable inside script tag.
+2. Display name from the variable on the page.
+3. Calculate the cost of Myntra bag and kept it in a variable.
+4. Show it to console.
+5. Keep GST percentage as constant.
+6. Use eval method from math to convert string calculation into result.
+
+        <--- if-else --->
+1. Give discount based on age, gender, for metro ticket,
+        -Femails get 50% off
+        -Kids under 5 years of age are free
+        -Kids up to 8 years have half ticket
+        -People Over 65 years of age only pay 305 of the ticket
+        -In case of multiple discounts max discount will apply.
+
+        <--- Functions --->
+1. Create a methods to check ifa number is odd or even.
+2. Create a methods to return larger of the two numbers.
+3. Create a methods to convert celcius to farenhite.
+
+        <--- Objects --->
+1. Create object to represent a product Myntra.
+2. Create an objects with two reference and log changes to oe objects by changing the other one.
+3. Use bracket notation to display delivery-time.
+4. Given an objects {message: 'good job, ststus: 'complete}' use de-structuring to create two variables message and status.
+5. Add function isidenticalproduct to compare to product objects.
+
+        <--- JSON, Local Storage, Date and DOM --->
+1. Display good Morning, afternoon and night based on current hour.
+2. Add the name to the output.
+3. Create a button which shows the number how many times iit has been pressed.
+        . Also, it has different colors for when it has been pressed odd or even time.
+        . The click count should also survive  browser refresh.
+
+        <---Arrays & Loops --->
+1. Create array of numbers [5,6]. Add 4 at the begining and 7 at the end of the array.
+2. Create a method to return an element at a particular position in the array.
+3. Create an array copy using slice methods.
+4. Create a while loop that exits after counting 5 prime numbers.
+5. Modify the above loop to finish using break.
+6. Create a for loop that prints number 1 to 10 in reverse order.
+7. Using continue only print positive numbers from the given array[1,-6,5,7,-98].
+8. Using accumulator pattern concatenate all the string in the given array[ 'KG', 'Coading', 'JavaScript', 'Course', 'is', 'Best'].
+

@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family:'Poppins', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(20, 20, 63);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: deepskyblue;
+}
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin:40px 0;
+    align-items: center;
+}
+.leftSection {
+    /* background-color: red; */
+    font-size: 2.2rem;
+}
+.leftSection .btn {
+    padding: 10px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.leftSection .buttons {
+    padding: 50px 0;
+}
+
+.rightSection img {
+    /* background-color: red; */
+    width: 70%;
+    margin: 50px 0;
+}
+.firstSection > div {
+    width: 30%;
+    margin-bottom: 20px;
+}
+.color, #element {
+    color: lightgreen;
+}
+main hr {
+    border: 0;
+    background-color: #8b86e6;
+    height: 1.2px;
+    margin: 40px 44px;
+}
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.text-grey {
+    color: grey;
+}
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical {
+    height: 93px;
+    width: 2px;
+    background-color: #8b86e6;
+    margin: 0 100px; 
+} 
+.image-top {
+    width: 30px;
+    position: relative;
+    top: -32px;
+    left: -15px; 
+    border-radius: 5px;
+}
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+.vertical-desc {
+    position: relative;
+    top: 100px;
+    width: 150px;
+    font-size: 13px;
+    color: #8b86e6;
+}
+
+/* Footer Style */
+footer {
+    background-color: #110b2a;
+}
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul {
+    list-style: none;
+    font-size: 15px;
+}
+.footer > div {
+    width:230px;
+}
+.footer-rights {
+    color: #8b86e6;
+    text-align: center;
+    padding: 10px 0;
+} 

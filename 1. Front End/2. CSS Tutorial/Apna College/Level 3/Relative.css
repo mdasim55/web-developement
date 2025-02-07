@@ -1,0 +1,15 @@
+#box1 {
+    height:100px;
+    width: 200px;
+    background-color: rgb(40, 193, 106);
+    font-size: 10px;
+}
+#box2 {
+    height:50px;
+    width: 50%;
+    background-color:hotpink ;
+    margin-left: 20%;
+    font-size: 2em;     /* 2 times of parent font size */
+    /* font-size: 0.5em; */
+    width:5rem;          /* 5*(its font size) = 5*20 =100px */
+}

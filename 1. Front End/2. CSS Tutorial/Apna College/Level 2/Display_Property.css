@@ -1,0 +1,23 @@
+/*#one {
+    background-color: aqua;
+    display:inline;
+}
+button{
+    background-color: aquamarine;
+    display: block;
+}*/
+/* Inline block */
+div {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    display: inline-block;
+}
+/*#two {
+    display: none;
+}*/
+#two {
+    visibility: hidden;
+}

@@ -1,0 +1,27 @@
+/* Pixels */
+#one {
+    font-size: 25px;
+}
+#three {
+    font-size: 10px;
+}
+/* Line Height */
+#four {
+    line-height: 5px;
+}
+#five {
+    line-height: 15px;
+}
+#six {
+    line-height: 25px;
+}
+/* Text Transformation */
+#seven {
+    text-transform: uppercase;
+}
+#eight {
+    text-transform: lowercase;
+}
+#nine {
+    text-transform: capitalize;
+}

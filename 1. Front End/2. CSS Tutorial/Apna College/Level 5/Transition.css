@@ -1,0 +1,20 @@
+div {
+    height:150px;
+    width:150px;
+    background-color: aqua;
+    border:2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transition-delay: 2s; */
+    transition:all 2s steps(5) 2s;
+}
+div:hover {
+    background-color: red;
+    color: white;
+    /* font-size: 20px; */
+}
+div:active {
+    background-color: darkkhaki;
+    color: aliceblue;
+}

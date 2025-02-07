@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Game</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        button {
+            border-radius: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bat Ball Stump Game</h1>
+    <button onclick="
+    //const userMsg=('You have chosen Bat.');
+    // This will generate random between 0-3..
+    let randomNum=Math.random()*3;
+    let comChoice;
+    if(randomNum>=0 && randomNum<1) {
+        comChoice='Bat';
+        //console.log('Computer choice is: Bat.')
+    } 
+    else if(randomNum>=1 && randomNum<2) {
+        comChoice='Ball';
+        //console.log('Computer choice is: Ball.')
+    }
+    else {
+        comChoice='Stump';
+        //console.log('Computer choice is: Stump.')
+    }
+    //const comMsg=`Computer choice is:  ${comChoice}`;
+    let resultMsg;
+    if(comChoice==='Ball') {
+        resultMsg=('You Won!');
+    } else if(comChoice==='Stump') {
+        resultMsg=('User Lost!')
+    } else {
+        resultMsg=('Match Draw.')
+    }
+    //alert(`${userMsg}  ${comMsg}  ${resultMsg}`);
+    alert(`You have chosen Bat. Computer has chosen ${comChoice} . so, The result is:  ${resultMsg}.`)
+    ">Bat</button>
+
+    <button onclick="
+    randomNum=Math.random()*3;
+    let comChoice1;
+    if(randomNum>=0 && randomNum<1) {
+        comChoice1='Bat';
+    } 
+    else if(randomNum>=1 && randomNum<2) {
+        comChoice1='Ball';
+    }
+    else {
+        comChoice1='Stump';
+    }
+    let resultMsg1;
+    if(comChoice1==='Ball') {
+        resultMsg1=('Match Draw.');
+    } else if(comChoice1==='Stump') {
+        resultMsg1=('User Won!') 
+    } else {
+        resultMsg1=('User Lost.')
+    }
+    alert(`You have chosen Ball. Computer has chosen ${comChoice1} . so, The result is:  ${resultMsg1}.`)
+    ">Ball</button>
+    
+    <button onclick="
+    randomNum=Math.random()*3;
+    let comChoice2;
+    if(randomNum>=0 && randomNum<1) {
+        comChoice2='Bat';
+    } 
+    else if(randomNum>=1 && randomNum<2) {
+        comChoice2='Ball';
+    }
+    else {
+        comChoice2='Stump';
+    }
+    let resultMsg2;
+    if(comChoice2==='Ball') {
+        resultMsg2=('You lost the match.');
+    } else if(comChoice2==='Stump') {
+        resultMsg2=('Match Draw.!') 
+    } else {
+        resultMsg2=('User won!.')
+    }
+    alert(`You have chosen Stump. Computer has chosen ${comChoice2} . so, The result is:  ${resultMsg2}.`)
+">Stump</button>
+</body>
+</html>

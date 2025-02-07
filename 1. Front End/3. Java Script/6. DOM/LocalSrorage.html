@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+<body>
+    <script>
+        localStorage.setItem('name','Mahammad Asim');
+        localStorage.setItem('Price','555');
+        
+        console.log(localStorage.getItem(name));
+        //console.log(localStorage.getItem(Price));
+        localStorage.clear();
+        /*
+        let product= {
+            name:'T-Shirt',
+            price: 999,
+            ratings: {
+                stsrs: 4.5,
+                noOfRivew: 555,
+            },
+        };
+        // localStorage.setItem('product', product);     // It is a wrong process.......
+        // console.log(localStorage.getItem('product'));
+    
+        
+        //localStorage.setItem('product', JSON.stringify(product));     // It is a right process.......
+        //console.log(localStorage.getItem('product'));
+
+        // Remove element in the local Storage...
+        localStorage.removeItem('price');
+        localStorage.clear();
+        */
+    </script>
+</body>
+</html>

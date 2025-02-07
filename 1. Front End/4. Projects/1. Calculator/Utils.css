@@ -1,0 +1,16 @@
+.center {
+    text-align: center;
+    color:blue;
+}
+.flex {
+    display:flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.mx-auto {
+    margin: auto;
+}
+.items-center {
+    align-items: center;
+}

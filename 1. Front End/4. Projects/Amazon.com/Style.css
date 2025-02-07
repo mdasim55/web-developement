@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* Box 1 */
+.nav-logo {
+    height: 60px;
+    width: 113px;
+}
+.logo {
+    background-image: url("Amazon\ logo.jpeg");
+    background-size: cover;
+    height: 50px;
+    width:100%;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+/* Box 2 */
+.nav-address {
+    height: 60px;
+    width: 90.64px;
+    font:14px;
+}
+.add-first {
+    color:#cccccc;
+    font-size: 0.70rem;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.add-sec {
+    font-size: 1rem;
+    margin-left: 5px;;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+/* Box 3 */
+.nav-serach {
+    display: flex;
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+}
+.search-select {
+    width: 50px;
+    color: #0f1111;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input {
+    width: 400px;
+    font-size: 1rem;
+    border: none;
+}
+.camera-icon {
+    width: 45px;
+    background-color: white;
+    color:rgb(128,128,128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    background-color:  #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav-serach:hover {
+    border: 2px solid orange;
+}
+/* Box 4 */
+.nav-flag {
+    display: flex;
+}
+#one {
+    margin-left: 5px;
+}
+/* Box 5 & 6 */
+span {
+    font-size: 0.71rem;
+}
+.nav-second {
+    font-size: 0.87rem;
+    font-weight: 700;
+}
+/* Box 7 */
+.nav-cart {
+    width: 100px;
+    display: flex;
+    font: size 0.85rem;
+    font-weight: 700;
+}
+.cart-icon {
+    font-size: 30px;
+    margin-right: 14px;
+}
+
+/* Pannel Navbar */
+.panel {
+    height: 40px;
+    width: ;
+    background-color: #222f3d;
+    color: white;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.pannel-all {
+    height: 39px;
+    width: 59px;
+    color:#ffffff;
+    background-color: #0f1111;
+    display:flex;
+}
+.panel-ops p {
+    display: inline;
+    width:70%;
+}

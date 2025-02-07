@@ -1,0 +1,13 @@
+#first {
+    background-color: cornflowerblue;
+    height:400px;
+    width:400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+} 
+#second {
+    background-color: khaki;
+    height:200px;
+    width:200px;     
+}

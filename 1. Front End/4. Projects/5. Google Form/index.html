@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form Validation</title>
+    <link rel="stylesheet" href="Style.csss">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <i class="fas fa-paper-plane"></i>
+            <div class="input-gropup">
+                <level>Full Name:</level>
+                <input type="text" placeholder="Enter your name">
+                <span id="name-error"></span>
+            </div>
+            <div class="input-gropup">
+                <level>Phone Number:</level>
+                <input type="tel" placeholder="123-456-789-0">
+                <span id="phone-error"></span>
+            </div>
+            <div class="input-gropup">
+                <level>Email Id:</level>
+                <input type="email" placeholder="Enter your email">
+                <span id="email-error"></span>
+            </div>
+            <div class="input-gropup">
+                <level>Your message:</level>
+                <textarea type="text" placeholder="Enter your message"></textarea>
+                <span id="sms-error"></span>
+            </div>
+            <button>Submit</button>
+            <span id="span-error"></span>
+        </form>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>

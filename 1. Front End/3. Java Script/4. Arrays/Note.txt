@@ -1,0 +1,4 @@
+Write down the difrerence between "Proterty" and "Methods"..?
+->
+  Property--> To show anf return any value
+  Methods--> To perform some particuler task

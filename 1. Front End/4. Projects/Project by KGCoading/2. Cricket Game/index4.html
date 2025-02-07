@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Game</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        button {
+            border-radius: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bat Ball Stump Game</h1>
+    <button onclick="
+    let comChoice=computerChoice();
+    let resultMsg=getResult('Bat',comChoice);
+    getMsg('Bat',comChoice,resultMsg);
+    ">Bat</button>
+
+    <button onclick="
+    comChoice=computerChoice();
+    resultMsg=getResult('Ball',comChoice);
+    getMsg('Ball',comChoice,resultMsg);
+    ">Ball</button>
+    
+    <button onclick="
+    comChoice=computerChoice();
+    resultMsg=getResult('Stump',comChoice);
+    getMsg('Stump',comChoice,resultMsg);
+    ">Stump</button>
+
+    <script>
+        let score = {
+            win:0,
+            lost:0,
+            tie:0,
+            displayScore: function() {
+                return `Won: ${score.win}, Lost: ${score.lost}, Tie: ${score.tie}`
+            }
+        }
+        function computerChoice() {
+            randomNum=Math.random()*3;
+            if(randomNum>=0 && randomNum<1) {
+                return 'Bat';
+            } 
+            else if(randomNum>=1 && randomNum<2) {
+                return 'Ball';
+            }
+            else {
+                return'Stump';
+            }
+        }
+        function getResult(userMove,comMove) {
+            if(userMove===comMove) {
+                score.tie++;
+                return 'Match was draw.';
+            } else if(userMove=='Bat') {
+                if(comMove=='Ball') {
+                    score.win++;
+                    return 'You won.';
+                } else {
+                    score.lost++;
+                    return 'You lost.'
+                }
+            } else if(userMove=='Ball') {
+                if(comMove=='Bat') {
+                    score.lost++;
+                    return 'You Lost.';
+                } else {
+                    score.win++;
+                    return 'You Won.'
+                }
+            } else if(userMove=='Stump') {
+                if(comMove=='Ball') {
+                    score.lost++;
+                    return 'You Lost.'
+                } else {
+                    score.win++;
+                    return 'You Won..'
+                }
+            }
+        }
+        function getMsg(userMove,comMove,result) {
+            console.log(score);
+            alert(`You have chosen ${userMove}. Computer has chosen ${comMove} . so, The result is:  ${result}. ${score.displayScore()}`);
+        }
+    </script>
+</body>
+</html>

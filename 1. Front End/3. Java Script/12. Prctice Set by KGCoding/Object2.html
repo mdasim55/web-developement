@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+    <style>
+        #button {
+            height: 50px;
+            width: 50px;
+            font-size: 25px;
+        }
+        .odd {
+            color: blue;
+        }
+        .even {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="greet"></h2>
+    <button id="button" onclick="buttonPress()">0</button>
+    <script>
+        function doGreeting(name) {
+            let date=new Date();
+            let hours=date.getHours();
+            let heading=document.querySelector('#greet');
+            if(hours>=6 && hours<12) {
+                heading.innerText=`Good Morning ${name} Sir.`;
+            } else if(hours>=12 && hours<16) {
+                heading.innerText=`Good Afternoon ${name} Sir.`;
+            } else if(hours>=18 && hours<22) {
+                heading.innerText=`Good Evening ${name} Sir.`;
+            } else {
+                heading.innerText=`Good Night ${name} Sir.`;
+            }
+        };
+        doGreeting("Aron");
+
+
+        // For button.....
+        let noClick=localStorage.setItem('noClick') || 0;
+        function buttonPress() {
+            let button=document.querySelector('#button');
+            noClick++;
+            localStorage.setItem('noClick',noClick);
+            if(noClick%2 === 0) {
+                button.classList.remove('odd');
+                button.classList.add('even');
+            } else {
+                button.classList.remove('even');
+                button.classList.add('odd');
+            }
+            button.innerText=noClick;
+        }
+    </script>
+</body>
+</html>

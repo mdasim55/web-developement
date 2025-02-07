@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Project Exercise</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <button class="bug-button" onclick="
+    cartQuantity++;
+    document.querySelector('#cart-summary').innerHTML=`Your bag has ${cartQuantity} itmes.`;
+    ">Add to Bag</button>
+    <button class="wish-button" onclick="
+    cartQuantity--;
+    document.querySelector('#cart-summary').innerHTML=`Your bag has ${cartQuantity} itmes.`;
+    ">MOVE TO WISHLIST</button>
+    <button class="bug-button">Add 1+1 sale item</button>
+    
+    <h1 id="cart-summary">Your bag has 0 itmes</h1>
+
+    <script src="Script.js"></script>
+</body>
+</html>
